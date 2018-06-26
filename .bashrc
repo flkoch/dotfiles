@@ -134,9 +134,3 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
-
-# Alias for pip
-alias pip=pip3
-
-# Alias for python 3
-alias p=python3
