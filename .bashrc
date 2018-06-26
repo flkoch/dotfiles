@@ -134,3 +134,7 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+# Allow local overrides for the bash configuration
+if [ -f ~/.bash_local ]; then
+				. ~/.bash_local
+fi
