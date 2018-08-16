@@ -39,8 +39,8 @@ bindsym $mod+Shift+q kill
 
 # change focus
 bindsym $mod+j focus left
-bindsym $mod+k focus down
-bindsym $mod+l focus up
+bindsym $mod+l focus down
+bindsym $mod+k focus up
 bindsym $mod+odiaeresis focus right
 
 # alternatively, you can use the cursor keys:
@@ -51,8 +51,8 @@ bindsym $mod+odiaeresis focus right
 
 # move focused window
 bindsym $mod+Shift+j move left
-bindsym $mod+Shift+k move down
-bindsym $mod+Shift+l move up
+bindsym $mod+Shift+l move down
+bindsym $mod+Shift+k move up
 bindsym $mod+Shift+odiaeresis move right
 
 # alternatively, you can use the cursor keys:
@@ -162,8 +162,8 @@ mode "resize" {
 
         # same bindings, but for the arrow keys
         bindsym Left resize shrink width 10 px or 10 ppt
-        bindsym Down resize grow height 10 px or 10 ppt
-        bindsym Up resize shrink height 10 px or 10 ppt
+        bindsym Up resize grow height 10 px or 10 ppt
+        bindsym Down resize shrink height 10 px or 10 ppt
         bindsym Right resize grow width 10 px or 10 ppt
 
         # back to normal: Enter or Escape
@@ -205,7 +205,7 @@ bar {
 	}
 }
 # Custom key-bindings
-bindsym $mod+y exec i3lock -f -c 111111 # Start i3lock to lock computer
+bindsym $mod+y exec i3lock -f -c 0e0e0e # Start i3lock to lock computer
 bindsym $mod+b exec chromium # Start the Firefox webbrowser
 bindsym $mod+c exec slack # Start the Slack massenger for communication
 
