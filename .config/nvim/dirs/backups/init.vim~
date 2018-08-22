@@ -7,7 +7,7 @@ call plug#end()
 
 " Set linenumbers
 set number relativenumber
-" Make search more helpful
+" Make search more holpful
 set incsearch
 set hlsearch
 " Show cursor position
