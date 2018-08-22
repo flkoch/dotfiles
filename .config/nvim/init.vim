@@ -61,12 +61,12 @@ set scrolloff=3
 set wildmode=list:longest 
 
 " better backup, swap and undos storage
-set directory=dirs/tmp    	" directory to place swap files in
+set directory=~/nvim/dirs/tmp    	" directory to place swap files in
 set backup				" make backup files
-set backupdir=dirs/backups	" where to put backup files
+set backupdir=~/nvim/dirs/backups	" where to put backup files
 set undofile				" persistent undos - undo after you re-open the file
-set undodir=dirs/undos
-set viminfo+=ndirs/viminfo
+set undodir=~/nvim/dirs/undos
+set viminfo+=~/nvim/ndirs/viminfo
 
 " create needed directories if they don't exist
 if !isdirectory(&backupdir)
