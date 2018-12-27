@@ -66,7 +66,7 @@ set backup				" make backup files
 set backupdir=~/nvim/dirs/backups	" where to put backup files
 set undofile				" persistent undos - undo after you re-open the file
 set undodir=~/nvim/dirs/undos
-set viminfo+=~/nvim/ndirs/viminfo
+silent! set viminfo+=~/nvim/ndirs/viminfo
 
 " create needed directories if they don't exist
 if !isdirectory(&backupdir)
