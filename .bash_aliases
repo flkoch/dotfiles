@@ -7,3 +7,6 @@ alias pip=pip3
 
 # Alias for python 3
 alias p=python3
+
+# Alias for VS Code (Insiders)
+alias code=code-insiders
