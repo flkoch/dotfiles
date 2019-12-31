@@ -20,4 +20,6 @@ for folder in $(ls .config/ ); do
 	fi
 done
 
+rm -rd ~/.tmux
+
 echo "Uninstalled"
