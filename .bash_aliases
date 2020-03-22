@@ -10,3 +10,6 @@ alias p=python3
 
 # Alias for VS Code (Insiders)
 alias code=code-insiders
+
+# Alias for update
+alias update='sudo apt update && sudo apt upgrade'
