@@ -55,7 +55,7 @@ map <C-S-Left> :tabp<CR>
 imap <C-S-Left> <ESC>:tabp<CR>
 
 " when scrolling, keep cursor 3 lines away from screen border
-set scrolloff=3
+set scrolloff=5
 " autocompletion of files and commands behaves like shell
 " (complete only the common part, list the options that match)
 set wildmode=list:longest 
